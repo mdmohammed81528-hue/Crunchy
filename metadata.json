@@ -1,0 +1,6 @@
+{
+  "name": "Crunchy Bite Taste The Crunch",
+  "description": "Official website of Crunchy Bite Taste The Crunch, a premium non-vegetarian restaurant located in front of Marwari Bhavan, Wazeerganj, Faizabad. Book tables, view menu, and get directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

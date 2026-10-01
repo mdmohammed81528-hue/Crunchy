@@ -1,0 +1,320 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "username": "admin",
+      "name": "Restaurant Manager",
+      "passwordHash": "901ca26667388f5a7d1e2308c25ee7f38e85c07ffc5082eb63c500934aecf14eddd966a52006c31d4d53e72289ca3b76ea5d96bee68deaf5d4dcd23b101e6b1f",
+      "salt": "1a5450bccb7df8de763ec591ec7fa064",
+      "role": "admin",
+      "createdAt": "2026-09-30T11:47:46.133Z"
+    }
+  ],
+  "settings": {
+    "businessName": "Crunchy Bite Taste The Crunch",
+    "tagline": "Taste The Crunch",
+    "businessType": "Non-Vegetarian Restaurant",
+    "address": "In front of Marwari Bhavan, Wazeerganj, Faizabad, Uttar Pradesh 224001, India",
+    "phone": "+91 99367 22297",
+    "mapsUrl": "https://maps.app.goo.gl/S1BfvnVBSyAgzyW56",
+    "openingHoursText": "Monday–Sunday: 11:30 AM – 11:30 PM",
+    "slotDurationMinutes": 60,
+    "maxBookingsPerSlot": 6,
+    "maxGuestsPerBooking": 12,
+    "advanceBookingDays": 30,
+    "isBookingEnabled": true,
+    "updatedAt": "2026-09-30T11:47:46.135Z"
+  },
+  "businessHours": [
+    {
+      "id": "bh_0",
+      "dayOfWeek": 0,
+      "dayName": "Sunday",
+      "isOpen": true,
+      "openingTime": "11:30",
+      "closingTime": "23:30",
+      "breaks": []
+    },
+    {
+      "id": "bh_1",
+      "dayOfWeek": 1,
+      "dayName": "Monday",
+      "isOpen": true,
+      "openingTime": "11:30",
+      "closingTime": "23:30",
+      "breaks": []
+    },
+    {
+      "id": "bh_2",
+      "dayOfWeek": 2,
+      "dayName": "Tuesday",
+      "isOpen": true,
+      "openingTime": "11:30",
+      "closingTime": "23:30",
+      "breaks": []
+    },
+    {
+      "id": "bh_3",
+      "dayOfWeek": 3,
+      "dayName": "Wednesday",
+      "isOpen": true,
+      "openingTime": "11:30",
+      "closingTime": "23:30",
+      "breaks": []
+    },
+    {
+      "id": "bh_4",
+      "dayOfWeek": 4,
+      "dayName": "Thursday",
+      "isOpen": true,
+      "openingTime": "11:30",
+      "closingTime": "23:30",
+      "breaks": []
+    },
+    {
+      "id": "bh_5",
+      "dayOfWeek": 5,
+      "dayName": "Friday",
+      "isOpen": true,
+      "openingTime": "11:30",
+      "closingTime": "23:30",
+      "breaks": []
+    },
+    {
+      "id": "bh_6",
+      "dayOfWeek": 6,
+      "dayName": "Saturday",
+      "isOpen": true,
+      "openingTime": "11:30",
+      "closingTime": "23:30",
+      "breaks": []
+    }
+  ],
+  "blockedDates": [],
+  "blockedSlots": [],
+  "services": [
+    {
+      "id": "srv_1",
+      "name": "Crunchy Spiced Chicken Fillets",
+      "description": "Signature crispy golden chicken fillets coated in spiced crunchy batter, served with house garlic mayonnaise and lemon slice.",
+      "price": 180,
+      "category": "Crunchy Specials",
+      "isNonVeg": true,
+      "isActive": true,
+      "isFeatured": true,
+      "imageUrl": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 1,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "srv_2",
+      "name": "Golden Crispy Drumsticks (2 pcs)",
+      "description": "Double seasoned tender chicken drumsticks with supreme crunch and juicy core, served hot with seasoned dip.",
+      "price": 220,
+      "category": "Crunchy Specials",
+      "isNonVeg": true,
+      "isActive": true,
+      "isFeatured": true,
+      "imageUrl": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 2,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "srv_3",
+      "name": "Crispy Pepper Chicken Wings (6 pcs)",
+      "description": "Succulent chicken wings tossed in crushed black pepper crunch crust, fried to golden perfection.",
+      "price": 240,
+      "category": "Crunchy Specials",
+      "isNonVeg": true,
+      "isActive": true,
+      "isFeatured": true,
+      "imageUrl": "https://images.pexels.com/photos/2232433/pexels-photo-2232433.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 3,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "srv_4",
+      "name": "Tandoori Roast Chicken (Half)",
+      "description": "Slow roasted in traditional spices, juicy roasted chicken served with mint chutney and fresh sliced rings.",
+      "price": 260,
+      "category": "Tandoor & Grills",
+      "isNonVeg": true,
+      "isActive": true,
+      "isFeatured": true,
+      "imageUrl": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 4,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "srv_5",
+      "name": "Smoky Chicken Seekh Kebab (4 pcs)",
+      "description": "Charred minced chicken skewers with fresh mint, ginger, green chilies, and aromatic roasted garam masala.",
+      "price": 190,
+      "category": "Tandoor & Grills",
+      "isNonVeg": true,
+      "isActive": true,
+      "isFeatured": false,
+      "imageUrl": "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 5,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "srv_6",
+      "name": "Crunchy Chicken Wrap / Roll",
+      "description": "Crispy fried chicken strips, pickled red onions, and tangy sauce rolled in warm handcrafted flatbread.",
+      "price": 130,
+      "category": "Rolls & Quick Bites",
+      "isNonVeg": true,
+      "isActive": true,
+      "isFeatured": true,
+      "imageUrl": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 6,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "srv_7",
+      "name": "Seasoned Crinkle Cut Fries",
+      "description": "Crisp golden potato crinkle fries with house herb seasoning and dip.",
+      "price": 90,
+      "category": "Sides & Coolers",
+      "isNonVeg": false,
+      "isActive": true,
+      "isFeatured": false,
+      "imageUrl": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 7,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "srv_8",
+      "name": "Fresh Mint Lime Cooler",
+      "description": "Chilled refreshing lime soda infused with crushed garden mint and rock salt.",
+      "price": 60,
+      "category": "Sides & Coolers",
+      "isNonVeg": false,
+      "isActive": true,
+      "isFeatured": false,
+      "imageUrl": "https://images.pexels.com/photos/1233319/pexels-photo-1233319.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sortOrder": 8,
+      "createdAt": "2026-09-30T11:47:46.135Z",
+      "updatedAt": "2026-09-30T11:47:46.135Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bkg_1790770533189_7481",
+      "bookingReference": "CB-261005-7481",
+      "customerName": "Karan Singh",
+      "phone": "+919876543211",
+      "serviceName": "Dine-In Table Reservation",
+      "bookingDate": "2026-10-05",
+      "bookingTime": "19:30",
+      "guestCount": 2,
+      "specialRequest": "Table near AC",
+      "status": "confirmed",
+      "createdAt": "2026-09-30T12:15:33.189Z",
+      "updatedAt": "2026-09-30T12:15:33.189Z"
+    },
+    {
+      "id": "bkg_sample_1",
+      "bookingReference": "CB-2609-8472",
+      "customerName": "Aarav Sharma",
+      "phone": "+91 98765 43210",
+      "email": "aarav.sharma@example.com",
+      "serviceId": "srv_1",
+      "serviceName": "Dine-In Table Reservation",
+      "bookingDate": "2026-10-02",
+      "bookingTime": "19:30",
+      "guestCount": 4,
+      "specialRequest": "Window booth or quiet corner if available",
+      "status": "confirmed",
+      "notes": "Family dining",
+      "createdAt": "2026-09-30T04:00:00.000Z",
+      "updatedAt": "2026-09-30T04:15:00.000Z"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal_1",
+      "imageUrl": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "caption": "Crisp golden chicken fillets with house dips",
+      "category": "Food",
+      "sortOrder": 1,
+      "isFeatured": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "gal_2",
+      "imageUrl": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "caption": "Tender seasoned drumsticks fried to supreme crunch",
+      "category": "Food",
+      "sortOrder": 2,
+      "isFeatured": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "gal_3",
+      "imageUrl": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "caption": "Freshly prepared non-veg skewers and tandoori grills",
+      "category": "Kitchen",
+      "sortOrder": 3,
+      "isFeatured": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "gal_4",
+      "imageUrl": "https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "caption": "Warm, inviting dining room ambiance for families & friends",
+      "category": "Ambiance",
+      "sortOrder": 4,
+      "isFeatured": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "gal_5",
+      "imageUrl": "https://images.pexels.com/photos/2232433/pexels-photo-2232433.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "caption": "Crispy pepper chicken wings tossed in spice crunch",
+      "category": "Food",
+      "sortOrder": 5,
+      "isFeatured": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "gal_6",
+      "imageUrl": "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "caption": "Succulent chicken seekh kebabs with fresh lemon & mint dip",
+      "category": "Food",
+      "sortOrder": 6,
+      "isFeatured": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_1",
+      "customerName": "Rohit K.",
+      "rating": 5,
+      "reviewDate": "2026-09-18",
+      "content": "Crispy chicken is truly flavorful and piping hot. Great location right in front of Marwari Bhavan in Wazeerganj!",
+      "source": "Google Maps",
+      "isPublished": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    },
+    {
+      "id": "rev_2",
+      "customerName": "Vikram S.",
+      "rating": 5,
+      "reviewDate": "2026-09-22",
+      "content": "Fresh crunch, juicy meat inside, and friendly staff. One of the best quick bite non-veg spots in Faizabad.",
+      "source": "Google Maps",
+      "isPublished": true,
+      "createdAt": "2026-09-30T11:47:46.135Z"
+    }
+  ]
+}
